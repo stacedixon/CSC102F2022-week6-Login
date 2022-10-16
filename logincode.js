@@ -4,7 +4,7 @@ function checkCreds(){
     var lstName = document.getElementById("lName").value;
     var badgeNumb = document.getElementById("badgeID").value;
     //work with the data
-    var fullName = fstName + lstName;
+    var fullName = fstName +" "+ lstName;
     console.log("the full name is " + fullName);
     console.log("the badge number is " + badgeNumb);
     var fullLength = fullName.length;
